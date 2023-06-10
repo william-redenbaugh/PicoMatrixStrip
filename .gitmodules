@@ -1,0 +1,9 @@
+[submodule "PicoMatrixStrip/src/FreeRTOSCSAL"]
+	path = PicoMatrixStrip/src/FreeRTOSCSAL
+	url = git@github.com:william-redenbaugh/FreeRTOSCSAL.git
+[submodule "PicoMatrixStrip/src/ArduinoCHAL"]
+	path = PicoMatrixStrip/src/ArduinoCHAL
+	url = git@github.com:william-redenbaugh/ArduinoCHAL.git
+[submodule "PicoMatrixStrip/lib/NeoPixelConnect"]
+	path = PicoMatrixStrip/lib/NeoPixelConnect
+	url = git@github.com:MrYsLab/NeoPixelConnect.git
