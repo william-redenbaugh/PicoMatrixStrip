@@ -12,10 +12,11 @@
  * to the NeoPixel LED strip.
  */
 typedef struct os_led_strip_t {
-    NeoPixelConnect strip; /**< The NeoPixel LED strip connection. */
+    NeoPixelConnect *pixels; /**< The NeoPixel LED strip connection. */
+    uint32_t num_pixels;
 } os_led_strip_t;
 
-
+extern os_led_strip_t strip_one;
 
 /**
  * @brief Initializes the OS LED strip.
@@ -26,7 +27,7 @@ typedef struct os_led_strip_t {
  * @param[in,out] strip A pointer to the OS LED strip structure.
  * @return An integer indicating the success (0) or failure (<0) of the initialization.
  */
-int os_led_strip_init(os_led_strip_t *strip);
+int os_led_strip_init(os_led_strip_t *strip, uint32_t num_pixels);
 
 /**
  * @brief Sets the color of an individual LED in the strip.
