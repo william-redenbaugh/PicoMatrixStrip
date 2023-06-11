@@ -24,6 +24,7 @@
 */
 
 #include "stdlib.h"
+#include "ArduinoCHAL/chal_includes.h"
 #include "FreeRTOSCSAL/csal_struct_definitions.h"
 #include "FreeRTOSCSAL/csal_includes.h"
 #include "CSAL_SHARED/csal_shared_includes.h"
