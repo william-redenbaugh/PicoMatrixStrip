@@ -7,3 +7,6 @@
 [submodule "PicoMatrixStrip/lib/NeoPixelConnect"]
 	path = PicoMatrixStrip/lib/NeoPixelConnect
 	url = git@github.com:MrYsLab/NeoPixelConnect.git
+[submodule "PicoMatrixStrip/src/PicoCSHAL"]
+	path = PicoMatrixStrip/src/PicoCSHAL
+	url = git@github.com:william-redenbaugh/PicoCSHAL.git
