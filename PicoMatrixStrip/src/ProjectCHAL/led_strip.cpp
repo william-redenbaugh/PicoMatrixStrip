@@ -1,5 +1,5 @@
 #include "os_led_strip.h"
-#include "ArduinoCHAL/hsv2rgb.h"
+#include "global_includes.h"
 
 os_led_strip_t strip_one;
 int os_led_strip_init(os_led_strip_t *strip, uint32_t num_pixels) {

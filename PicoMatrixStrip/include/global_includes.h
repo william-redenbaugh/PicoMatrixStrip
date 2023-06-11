@@ -25,12 +25,11 @@
 
 #include "stdlib.h"
 #include "FreeRTOSCSAL/csal_includes.h"
-#include "FreeRTOSCSAL/CSAL_SHARED/csal_shared_includes.h"
-#include "FreeRTOSCSAL/CSAL_SHARED/event_management.hpp"
+#include "CSAL_SHARED/csal_shared_includes.h"
+#include "CHAL_SHARED/chal_shared_includes.h"
 
 #include "enabled_modules.h"
 #include "event_type_list.h"
 #include "threads_list.h"
-
 
 #endif
