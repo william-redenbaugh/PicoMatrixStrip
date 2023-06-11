@@ -24,6 +24,7 @@
 */
 
 #include "stdlib.h"
+#include "FreeRTOSCSAL/csal_struct_definitions.h"
 #include "FreeRTOSCSAL/csal_includes.h"
 #include "CSAL_SHARED/csal_shared_includes.h"
 #include "CHAL_SHARED/chal_shared_includes.h"
