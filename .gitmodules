@@ -4,15 +4,12 @@
 [submodule "PicoMatrixStrip/src/ArduinoCHAL"]
 	path = PicoMatrixStrip/src/ArduinoCHAL
 	url = git@github.com:william-redenbaugh/ArduinoCHAL.git
-[submodule "PicoMatrixStrip/lib/NeoPixelConnect"]
-	path = PicoMatrixStrip/lib/NeoPixelConnect
-	url = git@github.com:MrYsLab/NeoPixelConnect.git
-[submodule "PicoMatrixStrip/src/PicoCSHAL"]
-	path = PicoMatrixStrip/src/PicoCSHAL
-	url = git@github.com:william-redenbaugh/PicoCSHAL.git
 [submodule "PicoMatrixStrip/src/CHAL_SHARED"]
 	path = PicoMatrixStrip/src/CHAL_SHARED
 	url = git@github.com:william-redenbaugh/CHAL_SHARED.git
 [submodule "PicoMatrixStrip/src/CSAL_SHARED"]
 	path = PicoMatrixStrip/src/CSAL_SHARED
 	url = git@github.com:william-redenbaugh/CSAL_SHARED.git
+[submodule "PicoMatrixStrip/src/CHAL-ESP-IDF"]
+	path = PicoMatrixStrip/src/CHAL-ESP-IDF
+	url = git@github.com:william-redenbaugh/CHAL-ESP-IDF.git

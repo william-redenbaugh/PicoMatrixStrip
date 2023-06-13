@@ -1,9 +1,10 @@
 #ifndef _OS_LED_STRIP_H
 #define _OS_LED_STRIP_H
 
+
 #include "os_led_strip.h"
 #include "global_includes.h"
-#include "NeoPixelConnect.h"
+//#include "NeoPixelConnect.h"
 
 /**
  * @brief The OS LED strip structure.
@@ -12,7 +13,7 @@
  * to the NeoPixel LED strip.
  */
 typedef struct os_led_strip_t {
-    NeoPixelConnect *pixels; /**< The NeoPixel LED strip connection. */
+    //NeoPixelConnect *pixels; /**< The NeoPixel LED strip connection. */
     uint32_t num_pixels;
 } os_led_strip_t;
 

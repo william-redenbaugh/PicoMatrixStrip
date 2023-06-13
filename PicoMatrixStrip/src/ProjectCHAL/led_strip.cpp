@@ -1,3 +1,4 @@
+/*
 #include "os_led_strip.h"
 #include "global_includes.h"
 
@@ -81,3 +82,4 @@ int os_led_strip_show(os_led_strip_t *strip) {
 
     return OS_RET_OK;
 }
+*/

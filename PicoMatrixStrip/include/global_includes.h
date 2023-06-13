@@ -23,6 +23,11 @@
 
 */
 
+#include "freertos/FreeRTOS.h"
+#include "freertos/semphr.h"
+#include "freertos/task.h"
+#include "freertos/event_groups.h"
+
 #include "stdlib.h"
 #include "ArduinoCHAL/chal_includes.h"
 #include "FreeRTOSCSAL/csal_struct_definitions.h"
