@@ -13,3 +13,6 @@
 [submodule "PicoMatrixStrip/src/CHAL-ESP-IDF"]
 	path = PicoMatrixStrip/src/CHAL-ESP-IDF
 	url = git@github.com:william-redenbaugh/CHAL-ESP-IDF.git
+[submodule "PicoMatrixStrip/lib/ESP32DMASPI"]
+	path = PicoMatrixStrip/lib/ESP32DMASPI
+	url = git@github.com:william-redenbaugh/ESP32DMASPI.git
