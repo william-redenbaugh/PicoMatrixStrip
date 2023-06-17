@@ -38,5 +38,6 @@
 #include "enabled_modules.h"
 #include "event_type_list.h"
 #include "threads_list.h"
+#include "ipc_enum.h"
 
 #endif
